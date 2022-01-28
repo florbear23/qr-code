@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Inter:wght@400;700&family=Kumbh+Sans&family=Lexend+Deca&family=Outfit:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    background-color: #d5e1ef;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+    max-width: 1440px;
+    max-height: 100vh;
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.main-card{
+    max-height:500px ;
+    max-width:322px ;
+    height: 5000px;
+    width: 6000px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card-qr{
+    max-width: 288px;
+    max-height: 290px;
+    width: 50000px;
+    height: 9000px;
+    background-color: #2b7dfa;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+img{
+    max-width: 288px;
+    max-height: 290px;
+    width: 50000px;
+    height: 9000px;  
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.qr-title{
+    max-height: 75px;
+    max-width: 288px;
+    width: 50000px;
+    height: 9000px;
+  
+    margin: 15px 0 10px ;
+    
+}
+
+.card-title{
+    font-weight: 900;
+    font-size: 20px;
+   
+}
+.qr-sub{
+    max-height: 65px;
+    max-width: 288px;
+    width: 50000px;
+    height: 9000px;
+   
+    margin-bottom: 22px;
+
+}
+
+.card-text{
+    line-height: 18px;
+    padding: 0 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
